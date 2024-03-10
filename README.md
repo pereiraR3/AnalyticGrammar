@@ -25,11 +25,11 @@ Para a dada gramática \( G \):
 
 A tabela de análise para esta gramática é a seguinte:
 
-|   | a                  | b                  | \$                |
-|---|--------------------|--------------------|-------------------|
-| S | \( S \rightarrow aA \) |                    |                   |
-| A |                    | \( A \rightarrow bB \) | \( A \rightarrow ε \) |
-| B | \( B \rightarrow aA \) | \( B \rightarrow bS \) |                   |
+|   | a            | b            | $   |
+|---|--------------|--------------|-----|
+| S | S -&gt; aA |              |     |
+| A |              | A -&gt; bB | A -&gt; ε |
+| B | B -&gt; aA | B -&gt; bS |     |
 
 Nota: \$ representa o final da cadeia de entrada.
 
