@@ -5,6 +5,35 @@ Projeto iniciado e concluído em 2024, preparado em menos de 1 semana. Requisita
 ## Visão Geral
 O projeto não é nada mais do que a construção de um analisador sintático, dentre o qual deverá ser rapaz de receber entradas para atestar se pertence ou não à linguagem pré-determinada.
 
+## Definição de Gramática Livre de Contexto
+
+Uma gramática livre de contexto \( G \) é definida pela 4-tupla \( G = (N, Σ, P, S) \), onde:
+
+- \( N \) é um conjunto de símbolos não-terminais.
+- \( Σ \) é um conjunto de símbolos terminais.
+- \( P \) é um conjunto de regras de produção.
+- \( S \) é o símbolo inicial.
+
+Para a dada gramática \( G \):
+
+- \( N = \{S, A, B\} \)
+- \( Σ = \{a, b\} \)
+- As regras de produção \( P \) são:
+  - \( S \rightarrow aA \)
+  - \( A \rightarrow bB \) | \( ε \)
+  - \( B \rightarrow aA \) | \( bS \)
+
+A tabela de análise para esta gramática é a seguinte:
+
+|   | a                  | b                  | \$                |
+|---|--------------------|--------------------|-------------------|
+| S | \( S \rightarrow aA \) |                    |                   |
+| A |                    | \( A \rightarrow bB \) | \( A \rightarrow ε \) |
+| B | \( B \rightarrow aA \) | \( B \rightarrow bS \) |                   |
+
+Nota: \$ representa o final da cadeia de entrada.
+
+
 ## Tecnologias Utilizadas
 
 A tecnologia usada para desenvolver o projeto é a seguinte:
