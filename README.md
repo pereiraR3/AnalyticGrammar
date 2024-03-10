@@ -5,7 +5,7 @@ Projeto iniciado e concluído em 2024, preparado em menos de 1 semana. Requisita
 ## Visão Geral
 O projeto não é nada mais do que a construção de um analisador sintático, dentre o qual deverá ser rapaz de receber entradas para atestar se pertence ou não à linguagem pré-determinada.
 
-## Definição da Gramática Livre de Contexto usada
+## Definição da Gramática Livre de Contexto Usada
 
 Uma gramática livre de contexto \( G \) é definida pela 4-tupla \( G = (N, Σ, P, S) \), onde:
 
