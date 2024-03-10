@@ -19,9 +19,9 @@ Para a dada gramática \( G \):
 - \( N = \{S, A, B\} \)
 - \( Σ = \{a, b\} \)
 - As regras de produção \( P \) são:
-  - \( S \rightarrow aA \)
-  - \( A \rightarrow bB \) | \( ε \)
-  - \( B \rightarrow aA \) | \( bS \)
+  - S -&gt; aA
+  - A -&gt; bB | ε
+  - B -&gt; aA | bS
 
 A tabela de análise para esta gramática é a seguinte:
 
