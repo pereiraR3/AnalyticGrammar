@@ -1,4 +1,4 @@
-# SimuladorGrammar
+# AnalyticGrammar
 
 Projeto iniciado e concluído em 2024, preparado em menos de 1 semana. Requisitado pela disciplina de TELEFAC (Teoria das Linguagens Formais e Autômatos).
 
